@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+text-align: center;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.box {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+  background-color: #ccc;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.5rem;
+  color: #000;
+  cursor: pointer;
+}
