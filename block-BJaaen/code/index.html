@@ -4,8 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper and Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+   <header>
+    <h1>rock paper scissors</h1>
+   </header>   
+     <div class="game">
+      <div class="options">
+        <div class="option rock" data-option="rock">
+          <h3>rock</h3>
+          <i class="fa fa-hand-rock-o" aria-hidden="true"></i>
+        </div>
+        <div class="option paper" data-option="paper">
+          <h3>paper</h3>
+          <i class="fa fa-hand-paper-o" aria-hidden="true"></i>
+        </div>
+        <div class="option scissors" data-option="scissors">
+          <h3>scissors</h3>
+          <i class="fa fa-hand-scissors-o" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+    
+    <div class="result">
+      <h2>Choose your weapon!</h2>
+    </div>
+    <div class="reset">
+      <button id="reset-button"><a href="">reset</a></button>
+    </div>
+    </body>
     <script src="./script.js"></script>
   </body>
 </html>

@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+/* Custom Resets */
+html {
+	font-family: 'Climate Crisis', cursive;
+ background-color: floralwhite;
+}
+
+h1 {
+	padding: 2rem;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 3rem;
+}
+
+.game {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.options {
+	display: flex;
+	justify-content: center;
+}
+
+.option {
+	font-size: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.option h3 {
+	margin: 10px 20px;
+	text-transform: capitalize;
+}
+
+.option:hover {
+	opacity: 0.8;
+}
+
+.rock {
+	color: #9e3623;
+}
+
+.paper {
+	color: #1c9de9;
+}
+
+.scissors {
+	color: #7e7e7e;
+}
+
+.result {
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    background-color: #1c9de9;
+    width: auto;
+    height: auto;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.result h2 {
+	text-align: center;
+}
+
+.result-item:hover{
+    background-color: #d6371b;
+}
+
+.result-item {
+	margin: 10px 10px;
+	padding: 10px;
+	border: 2px solid black;
+    background-color: #9e3623;
+    border-radius: 7px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #reset-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #1c9de9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #reset-button:hover {
+    background-color: #1569a8;
+  }
+  
+  #reset-button a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
