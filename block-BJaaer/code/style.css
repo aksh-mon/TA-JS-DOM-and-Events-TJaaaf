@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+
 }
 
 *,
@@ -90,4 +91,43 @@ input[type='text'] {
 }
 .terms {
   display: inline-block;
+}
+
+
+/* CSS for the modal */
+
+.modal{
+  max-width: 450px;
+  margin: 3rem auto;
+  background: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+position: relative;
+}
+
+.modal #closeModal{
+  position: absolute;
+  top: .1rem;
+  right: 1rem;
+  background-color: white;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;}
+
+  
+.modal h2 {
+font-size: 1.8rem;
+  margin-top: 0; /* Reset margin-top for h2 element */
+font-weight: bolder;
+}
+
+.modal p {
+  margin: 0.25rem 0; /* Adjust margin for p elements */
+font-weight: bold;
+}
+
+.last-child {
+  text-decoration: underline;
 }
